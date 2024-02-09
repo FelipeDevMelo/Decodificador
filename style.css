@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-primaria: #00C9A7;
+    --font-family: "Roboto", sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   background-image: url("/sources/Papel\ de\ parede\ para\ computador\ astronauta\ galáxia\ preto\ e\ branco.png");
+   background-size:cover;
+
+}
+.cabecalho{
+margin-left: 1rem;
+margin-top: 2rem;
+width: 10%;
+}
+.cabecalho__logo{
+width: 3rem;
+
+}
+
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.conteudo-principal__texto-entrada{
+    margin-top: 8rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+   
+}
+::placeholder{
+    color: var(--cor-primaria);
+}
+.conteudo-principal__texto-entrada__texto{
+    width: 70%;
+    height: 50%;
+    background: transparent;
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+
+}
+.conteudo-principal__texto-resultado{
+background-color: var(--cor-primaria);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+.conteudo-principal__texto-resultado__paragrafo{
+    padding-top: 15%;
+    width: 70%;
+    height: 50%;
+    font-family: var(--font-family);
+    color: white;
+}
