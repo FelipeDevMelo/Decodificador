@@ -36,6 +36,7 @@ http://localhost:3000
 ```
 github pages: https://felipedevmelo.github.io/Decodificador/
 
+![image](https://github.com/FelipeDevMelo/Decodificador/assets/73553939/d40f1de0-39ca-4908-be7f-5ddae9b7537b)
 
 Nesse projeto o usuario pode encripografar palavras assim como desencriptografa-las.
 
